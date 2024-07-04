@@ -1,0 +1,466 @@
+{
+    "editor.largeFileOptimizations": false,
+    "editor.fontSize": 15,
+    "bracketPairColorizer.depreciation-notice": false,
+    "workbench.preferredLightColorTheme": "Visual Studio Light",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.tokenColorCustomizations": {
+        "comments": "#c2bdbd",
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "explorer.compactFolders": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "emmet.triggerExpansionOnTab": true,
+    "js/ts.implicitProjectConfig.strictFunctionTypes": false,
+    "redhat.telemetry.enabled": true,
+    // 換行
+    "editor.wordWrap": "off",
+    // 是否允许自定义的snippet片段提示
+    "editor.snippetSuggestions": "top",
+    // vscode默认启用了根据文件类型自动设置tabsize的选项 不檢查縮進，保存后統一按設置項來設置
+    "editor.detectIndentation": false,
+    // 重新设定tabsize 代码缩进修改成 4 个空格
+    "editor.tabSize": 4,
+    // #每次保存的时候自动格式化
+    "editor.formatOnSave": true,
+    // #每次保存的时候将代码按eslint格式进行修复 使用eslint 風格使用standard 進行代碼規則限制
+    "editor.fontWeight": "200",
+    "git.confirmSync": false,
+    "window.zoomLevel": 0,
+    "editor.renderWhitespace": "boundary",
+    "editor.wordWrapColumn": 100,
+    "editor.minimap.enabled": false,
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    "editor.codeLens": true,
+    // eslint 代码自动检查相关配置
+    "eslint.enable": true,
+    "eslint.run": "onType",
+    "eslint.options": {
+        "plugins": [
+            "html",
+            "vue"
+        ],
+        "extensions": [
+            ".js",
+            ".vue"
+        ]
+    },
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "javascript.format.enable": false,
+    /*  prettier格式化 */
+    /*  prettier格式化的配置 start */
+    "prettier.printWidth": 600, // 超过最大值换行
+    "prettier.tabWidth": 4, // 缩进字节数
+    "prettier.useTabs": false, // 缩进不使用tab，使用空格
+    "prettier.semi": true, // 句尾添加分号
+    "prettier.singleQuote": true, // 使用单引号代替双引号
+    "prettier.proseWrap": "preserve", // 默认值。因为使用了一些折行敏感型的渲染器(如GitHub comment)而按照markdown文本样式进行折行
+    "prettier.arrowParens": "avoid", //  (x) => {} 箭头函数参数只有一个时是否要有小括号。avoid：省略括号
+    "prettier.bracketSpacing": true, // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
+    "prettier.endOfLine": "auto", // 结尾是 \n \r \n\r auto
+    "prettier.htmlWhitespaceSensitivity": "ignore",
+    "prettier.ignorePath": ".prettierignore", // 不使用prettier格式化的文件填写在项目的.prettierignore文件中
+    "prettier.jsxSingleQuote": false, // 在jsx中使用单引号代替双引号
+    "prettier.requireConfig": false, // Require a 'prettierconfig' to format prettier
+    /*  prettier格式化的配置 end */
+    // #让函数(名)和后面的括号之间加个空格
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    // 格式化stylus, 需安装Manta's Stylus Supremacy插件
+    "stylusSupremacy.insertColons": false, // 是否插入冒号
+    "stylusSupremacy.insertSemicolons": false, // 是否插入分号
+    "stylusSupremacy.insertBraces": false, // 是否插入大括号
+    "stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+    "stylusSupremacy.insertNewLineAroundBlocks": false, // 两个选择器中是否换行
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript"
+    },
+    "emmet.includeLanguages": {
+        "wxml": "html",
+        "javascript": "javascriptreact"
+    },
+    "minapp-vscode.disableAutoConfig": true,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    // 設置行高
+    "editor.lineHeight": 20,
+    "workbench.sideBar.location": "left",
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "editor.cursorStyle": "line-thin",
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // #每次保存的时候将代码按照 eslint 格式进行修复
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "npm.fetchOnlinePackageInfo": false,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "vscodeReactRefactor.enableDebug": true,
+    "vite.https": true,
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "tslint.jsEnable": true,
+    "npm.enableRunFromFolder": true,
+    "reactSnippets.settings.prettierEnabled": true,
+    "todo-tree.general.enableFileWatcher": true,
+    "todo-tree.tree.buttons.groupBySubTag": true,
+    "target": "es6",
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.scriptInitialIndent": true, // js部分是否有初始缩进
+    "vetur.format.styleInitialIndent": true, // style部分是否有初始缩进
+    "vetur.completion.scaffoldSnippetSources": {},
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "vetur.format.defaultFormatter.html": "js-beautify-html", // js 不换行
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            "wrap_attributes": "auto", // html 标签属性 换行设置[auto|force|force-aligned|force-expand-multiline] ["auto"]
+            "end_with_newline": false, // 在文件结尾添加新行
+            "wrap_line_length": 80,
+            "semi": false // 是否在每行末尾添加分号
+        },
+        "prettyhtml": {
+            "printWidth": 100,
+            "singleQuote": false,
+            "wrapAttributes": false,
+            "sortAttributes": false
+        },
+        "prettier": {
+            // 不加分号
+            "semi": false,
+            // 用单引号
+            "singleQuote": true,
+            // 禁止随时添加逗号
+            "trailingComma": "none"
+        }
+    },
+    // 显示 markdown 中英文切换时产生的特殊字符
+    "editor.renderControlCharacters": true,
+    // 新开窗口
+    "workbench.startupEditor": "newUntitledFile",
+    // 默认 lf 结尾
+    "files.eol": "\n",
+    // vscode update tips
+    "update.mode": "none",
+    // Internal terminal
+    "code-runner.runInTerminal": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    // vscode Suggested expansion
+    "extensions.ignoreRecommendations": false,
+    "vue-helper.indent-size": 4,
+    "vue3snippets.useTabs": true,
+    "vue3snippets.tabWidth": 4,
+    "vue3snippets.jsxBracketSameLine": true,
+    "vue3snippets.jsxSingleQuote": true,
+    "vue3snippets.insertPragma": true,
+    "vue3snippets.requirePragma": true,
+    "vue3snippets.vueIndentScriptAndStyle": true,
+    "easysass.compileAfterSave": true,
+    "easysass.formats": [
+        {
+            "format": "nested",
+            "extension": ".css"
+        },
+        {
+            "format": "nested",
+            "extension": ".css"
+        }
+    ],
+    "easysass.targetDir": "css/",
+    "editor.parameterHints": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "editor.minimap.renderCharacters": false,
+    "javascript.validate.enable": false,
+    "editor.inlayHints.enabled": "off",
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "vetur.format.options.useTabs": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[sass]": {
+        "editor.defaultFormatter": "syler.sass-indented"
+    },
+    //-------- Code Spell Checker Configuration --------
+    // The Language locale to use when spell checking. "en", "en-US" and "en-GB" are currently supported by default.
+    "cSpell.language": "en",
+    // Controls the maximum number of spelling errors per document.
+    "cSpell.maxNumberOfProblems": 100,
+    // Controls the number of suggestions shown.
+    "cSpell.numSuggestions": 8,
+    // The minimum length of a word before checking it against a dictionary.
+    "cSpell.minWordLength": 4,
+    // Specify file types to spell check.
+    "cSpell.enabledLanguageIds": [
+        "csharp",
+        "go",
+        "javascript",
+        "javascriptreact",
+        "markdown",
+        "php",
+        "plaintext",
+        "typescript",
+        "typescriptreact",
+        "yml"
+    ],
+    // Enable / Disable the spell checker.
+    "cSpell.enabled": true,
+    // Display the spell checker status on the status bar.
+    "cSpell.showStatus": true,
+    // Enable / Disable compound words like 'errormessage'
+    "cSpell.allowCompoundWords": false,
+    // Words to be ignored and not suggested.
+    "cSpell.ignoreWords": [
+        "behaviour"
+    ],
+    // User words to add to dictionary.  Should only be in the user settings.
+    "cSpell.userWords": [
+        "cparagraph"
+    ],
+    // Specify paths/files to ignore.
+    "cSpell.ignorePaths": [
+        "node_modules", // this will ignore anything the node_modules directory
+        "**/node_modules", // the same for this one
+        "**/node_modules/**", // the same for this one
+        "node_modules/**", // Doesn't currently work due to how the current working directory is determined.
+        "vscode-extension", //
+        ".git", // Ignore the .git directory
+        "*.dll", // Ignore all .dll files.
+        "**/*.dll" // Ignore all .dll files
+    ],
+    "security.workspace.trust.enabled": false,
+    "window.restoreWindows": "none",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": [
+                "-nologo"
+            ]
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.filtering.excludeGlobs": [
+        "**/node_modules",
+        "*.xml",
+        "*.XML"
+    ],
+    "todo-tree.filtering.ignoreGitSubmodules": true,
+    "todohighlight.keywords": [],
+    "todo-tree.tree.showCountsInTree": true,
+    "todohighlight.keywordsPattern": "TODO:|FIXME:|NOTE:|\\(([^)]+)\\)",
+    "todohighlight.defaultStyle": {},
+    "todohighlight.isEnable": false,
+    "todo-tree.highlights.customHighlight": {
+        "BUG": {
+            "icon": "bug",
+            "foreground": "#F56C6C",
+            "type": "line"
+        },
+        "FIXME": {
+            "icon": "flame",
+            "foreground": "#FF9800",
+            "type": "line"
+        },
+        "TODO": {
+            "foreground": "#FFEB38",
+            "type": "line"
+        },
+        "NOTE": {
+            "icon": "note",
+            "foreground": "#67C23A",
+            "type": "line"
+        },
+        "INFO": {
+            "icon": "info",
+            "foreground": "#909399",
+            "type": "line"
+        },
+        "TAG": {
+            "icon": "tag",
+            "foreground": "#409EFF",
+            "type": "line"
+        },
+        "HACK": {
+            "icon": "versions",
+            "foreground": "#E040FB",
+            "type": "line"
+        },
+        "XXX": {
+            "icon": "unverified",
+            "foreground": "#E91E63",
+            "type": "line"
+        }
+    },
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "INFO",
+        "NOTE",
+        "TAG",
+        "XXX"
+    ],
+    "todo-tree.general.statusBar": "total",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    /*editor*/
+    "editor.cursorBlinking": "smooth", //使编辑器光标的闪烁平滑，有呼吸感
+    "editor.formatOnPaste": true, //在粘贴时格式化代码
+    "editor.formatOnType": true, //敲完一行代码自动格式化
+    "editor.smoothScrolling": true, //使编辑器滚动变平滑
+    "editor.tabCompletion": "on", //启用Tab补全
+    "editor.fontLigatures": true, //启用字体连字
+    /*
+        因为有时候VSCode的判断是错误的
+        */
+    "editor.insertSpaces": true, //敲下Tab键时插入4个空格而不是制表符
+    "editor.copyWithSyntaxHighlighting": false, //复制代码时复制纯文本而不是连语法高亮都复制了
+    "editor.suggest.snippetsPreventQuickSuggestions": false, //这个开不开效果好像都一样，据说是因为一个bug，建议关掉
+    "editor.stickyTabStops": true, //在缩进上移动光标时四个空格一组来移动，就仿佛它们是制表符(\t)一样
+    "editor.wordBasedSuggestions": false, //关闭基于文件中单词来联想的功能(语言自带的联想就够了，开了这个会导致用vscode写MarkDown时的中文引号异常联想)
+    "editor.linkedEditing": true, //html标签自动重命名(喜大普奔！终于不需要Auto Rename Tag插件了！)
+    "editor.cursorSmoothCaretAnimation": true, //让光标移动、插入变得平滑
+    /*terminal*/
+    "terminal.integrated.defaultProfile.windows": "Command Prompt", //将终端设为cmd，个人比较喜欢cmd作为终端
+    "terminal.integrated.cursorBlinking": true, //终端光标闪烁
+    "terminal.integrated.rightClickBehavior": "default", //在终端中右键时显示菜单而不是粘贴(个人喜好)
+    /*files*/
+    "files.autoGuessEncoding": true, //让VScode自动猜源代码文件的编码格式
+    "files.exclude": {
+        //隐藏一些碍眼的文件夹
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/tmp": true,
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    "files.watcherExclude": {
+        //不索引一些不必要索引的大文件夹以减少内存和CPU消耗
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/bower_components/**": true,
+        "**/dist/**": true
+    },
+    /*workbench*/
+    "workbench.list.smoothScrolling": true, //打开文件时不是“预览”模式，即在编辑一个文件时打开编辑另一个文件不会覆盖当前编辑的文件而是新建一个标签页
+    "workbench.editor.wrapTabs": true, //编辑器标签页在空间不足时以多行显示
+    /*explorer*/
+    "explorer.confirmDelete": false, //删除文件时不弹出确认弹窗(因为很烦)
+    "explorer.confirmDragAndDrop": false, //往左边文件资源管理器拖动东西来移动/复制时不显示确认窗口(因为很烦)
+    /*search*/
+    "search.followSymlinks": false, //据说可以减少vscode的CPU和内存占用
+    /*window*/
+    "window.menuBarVisibility": "visible", //在全屏模式下仍然显示窗口顶部菜单(没有菜单很难受)
+    "window.dialogStyle": "custom", //使用更具有VSCode的UI风格的弹窗提示(更美观)
+    /*debug*/
+    "debug.internalConsoleOptions": "openOnSessionStart", //每次调试都打开调试控制台，方便调试
+    "debug.showBreakpointsInOverviewRuler": true, //在滚动条标尺上显示断点的位置，便于查找断点的位置
+    "debug.toolBarLocation": "docked", //固定调试时工具条的位置，防止遮挡代码内容(个人喜好)
+    "debug.saveBeforeStart": "nonUntitledEditorsInActiveGroup", //在启动调试会话前保存除了无标题文档以外的文档(毕竟你创建了无标题文档就说明你根本没有想保存它的意思(至少我是这样的。))
+    "debug.onTaskErrors": "showErrors", //预启动任务出错后显示错误，并不启动调试
+    /*html*/
+    "html.format.indentHandlebars": true, //在写包含形如{{xxx}}的标签的html文档时，也对标签进行缩进(更美观)
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.fontStyleItalic": true,
+    "typescript.check.tscVersion": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "vetur.validation.template": false,
+    "vetur.format.enable": true,
+    "volar.autoCompleteRefs": true,
+    // 左侧不折叠的标签，其余标签会折叠
+    "volar.splitEditors.layout.left": [
+        "template",
+        "script",
+        "scriptSetup"
+    ],
+    // 右侧不折叠的标签，其余标签会折叠
+    "volar.splitEditors.layout.right": [
+        "styles",
+        "customBlocks"
+    ],
+    "eslint.validate": [
+        "vue",
+        "html",
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+    "eslint.nodePath": "",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "onFocusChange",
+    "files.autoSaveDelay": 500,
+    "material-icon-theme.folders.theme": "none",
+    "vsicons.presets.jsOfficial": true,
+    "material-icon-theme.activeIconPack": "vue",
+    "editor.unicodeHighlight.allowedLocales": {
+        "zh-hans": true,
+        "ja": true,
+        "zh-hant": true
+    },
+    "less.compile": {
+        "compress": true, // true => remove surplus whitespace
+        "sourceMap": true, // true => generate source maps (.css.map files)
+        "out": true, // false => DON'T output .css files (overridable per-file, see below)
+        "autoprefixer": "> 5%, last 2 Chrome versions, not ie 6-9",
+        "main": [
+            "main-one.less",
+            "main-two.less"
+        ]
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "javascript.format.semicolons": "insert",
+    "editor.unicodeHighlight.allowedCharacters": {
+        " ": true,
+        " ": true
+    },
+    "workbench.colorTheme": "Ayu Light",
+}
